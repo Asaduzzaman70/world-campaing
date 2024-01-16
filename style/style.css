@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
 
 *{
-    padding: 0px; margin: 0px; box-sizing: border-box; text-decoration: none;
+    padding: 0px; margin: 0px; box-sizing: border-box; text-decoration: none; font-family: Mulish;
+
 }
 
 /* color, font variable section  */
@@ -14,7 +15,17 @@
     --white:#fff;
 }
 
+/* Most Uses */
+.center{
+    text-align: center;
+}
+#primary-btn{
+    background: var(--color-theme);
+    color: var(--white);
+}
+
 /* Header section  */
+
 .nav-section{
     width: calc( 100% - 20px );
     height: 80px;
@@ -75,9 +86,171 @@
 .check-btn > i{
     color: #131318;
 }
-/* .nav-section .logo{
-    display: flex;
+
+
+/* Banner Section  */
+.banner-section{
+    width: calc( 100% - 20px );
+    margin: 0 auto;
 }
-.nav-section > ul{
+.banner-section-1{
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-size: cover;
+    background-position: center;
     display: flex;
-} */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 106px 185px;
+    border-radius: 8px;
+}
+.banner-heading{
+    color: var(--white);
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+.banner-description{
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0px 247px;
+    margin-top: 24px;
+}
+.banner-form{
+    background: rgba(240, 170, 170, 0.3);
+    display: inline-block;
+    border-radius: 8px;
+    margin-top: 48px;
+}
+.banner-input{
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    justify-content: center;
+    padding: 16px;
+}
+.banner-form .banner-input > input, .banner-form .banner-input > select{
+    padding: 16px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    background-color: var(--white);
+    margin: 0px 8px;
+    outline: none;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.banner-section{
+    background: url("../Images/Group\ 13\ \(1\)\ \(1\).png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: calc( 100% - 20px );
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin-top: 15px;
+    padding: 106px 185px ;
+}
+.banner-section::after{
+    content: "";
+    background-image: url("../Images/liner\ gradiant\ black.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.banner-heading{
+    color: var(--white);
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+.banner-description{
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0px 247px;
+    margin-top: 24px;
+}
+
+.banner-form{
+    background: rgba(240, 170, 170, 0.3);
+    display: inline-block;
+    border-radius: 8px;
+    margin-top: 48px;
+}
+.banner-input{
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    justify-content: center;
+    padding: 16px;
+}
+.banner-form .banner-input > input, .banner-form .banner-input > select{
+    padding: 16px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    background-color: var(--white);
+    margin: 0px 8px;
+    outline: none;
+    border: none;
+}
+*/

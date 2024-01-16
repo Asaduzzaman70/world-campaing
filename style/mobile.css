@@ -9,11 +9,16 @@
         --menu-bgc:#ddd;
     }
 
+
+    /* Header section */
     .nav-section{
         width:100%;
     }
     .check-btn{
         display: block;
+    }
+    .nav-section .logo > span{
+        font-size: 36px;
     }
     .nav-section .logo > img{
         top: 10%;
@@ -41,4 +46,19 @@
         left: 0;
     }
     
+    /* Banner section */
+    .banner-section-1{
+        padding: 32px 15px;
+    }
+    .banner-heading{
+        font-size: 22px;
+    }
+    .banner-description{
+        font-size: 14px;
+        padding: 0px 15px;
+    }
+    .banner-input{
+        grid-template-columns: auto;
+        row-gap: 16px;
+    }
 }
