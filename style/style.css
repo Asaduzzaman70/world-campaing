@@ -23,6 +23,33 @@
     background: var(--color-theme);
     color: var(--white);
 }
+#primary-btn-2{
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px 35px;
+    background: var(--color-theme);
+    border: 2px solid #dddddd00;
+    border-radius: 8px;
+    transition: .3s;
+    cursor: pointer;
+}
+#primary-btn-2:hover{
+    background-color: var(--white);
+    color: var(--color-theme);
+    border: 1px solid var(--color-theme);
+}
+.primary-heading-text{
+    color: var(--color-heading-text);
+    font-size: 40px;
+    font-weight: 800;
+}
+.primary-description-text{
+    color: var(--color-description-text);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
 
 /* Header section  */
 
@@ -144,113 +171,39 @@
     border: none;
 }
 
+/*=================== main section =================== */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-.banner-section{
-    background: url("../Images/Group\ 13\ \(1\)\ \(1\).png") no-repeat;
-    background-size: cover;
-    background-position: center;
+/*---------- popular section----------- */
+.popular{
     width: calc( 100% - 20px );
-    height: 100%;
-    margin: 0 auto;
-    position: relative;
-    z-index: 1;
-    text-align: center;
-    margin-top: 15px;
-    padding: 106px 185px ;
+    margin: 100px auto;
 }
-.banner-section::after{
-    content: "";
-    background-image: url("../Images/liner\ gradiant\ black.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+.popular-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
-.banner-heading{
-    color: var(--white);
-    font-size: 64px;
-    font-weight: 800;
-    margin-bottom: 0px;
+.popular-text{
+    padding: 0px 100px 0px 20px;
 }
-.banner-description{
-    color: var(--white);
+.primary-heading-text{
+    margin-bottom: 24px;
+}
+.popular-text > ul {
+    padding-left: 20px;
+    margin: 24px 0px;
+}
+.popular-text > ul > li{
+    color: var(--color-description-text);
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    padding: 0px 247px;
-    margin-top: 24px;
+    padding: 15px;
 }
-
-.banner-form{
-    background: rgba(240, 170, 170, 0.3);
-    display: inline-block;
-    border-radius: 8px;
-    margin-top: 48px;
+.popular-img{
+    text-align: right;
+    padding: 10px;
 }
-.banner-input{
-    display: grid;
-    grid-template-columns: repeat(4, 200px);
-    justify-content: center;
-    padding: 16px;
+.popular-text > button{
+    margin-top: 32px;
 }
-.banner-form .banner-input > input, .banner-form .banner-input > select{
-    padding: 16px;
-    color: rgba(19, 19, 24, 0.50);
-    font-size: 16px;
-    font-weight: 400;
-    border-radius: 8px;
-    background-color: var(--white);
-    margin: 0px 8px;
-    outline: none;
-    border: none;
-}
-*/

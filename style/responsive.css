@@ -28,4 +28,12 @@
         grid-template-columns: auto;
         row-gap: 16px;
     }
+
+    /* popular section */
+    .popular-1{
+        flex-direction: column;
+    }
+    .popular-text > button{
+        margin-bottom: 32px;
+    }
 }

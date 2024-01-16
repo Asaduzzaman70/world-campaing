@@ -18,7 +18,7 @@
         display: block;
     }
     .nav-section .logo > span{
-        font-size: 36px;
+        font-size: 24px;
     }
     .nav-section .logo > img{
         top: 10%;
@@ -60,5 +60,40 @@
     .banner-input{
         grid-template-columns: auto;
         row-gap: 16px;
+    }
+
+    /* popular section */
+    .popular-1{
+        flex-direction: column;
+    }
+    .popular-text > button{
+        margin-bottom: 32px;
+    }
+    .popular-text{
+        padding: 0px 10px 0px 20px;
+    }
+    .primary-heading-text{
+        margin-bottom: 24px;
+    }
+    .popular-text > ul {
+        padding-left: 20px;
+        margin: 24px 0px;
+    }
+    .popular-text > ul > li{
+        color: var(--color-description-text);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        padding: 15px;
+    }
+    .popular-img{
+        text-align: center;
+        padding: 10px;
+    }
+    .popular-text > button{
+        margin-top: 32px;
+    }
+    .popular-img img{
+        width: 100%;
     }
 }
