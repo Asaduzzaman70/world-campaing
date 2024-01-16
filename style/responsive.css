@@ -89,4 +89,21 @@
         grid-template-rows: 1fr 1fr;
         gap: 35px;
     }
+
+    /* Deals & Discount */
+    .deals-text > p{
+        padding: 0px 4px;
+        margin-top: 5px 0px 5px 0px;
+    }
+    .deals-image{
+        padding: 6px 5px;
+        border-radius: 8px;
+        margin: 50px 0px;
+    }
+    .deals-box{
+        background-color: #ffffff94;
+        width: 100%;
+        border-radius: 15px;
+        padding: 35px;
+    }
 }
