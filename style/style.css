@@ -50,6 +50,11 @@
     font-weight: 400;
     line-height: 26px;
 }
+.width{
+    width: calc( 100% - 20px );
+    height: 80px;
+    margin: 0px auto;
+}
 
 /* Header section  */
 
@@ -239,4 +244,35 @@
     color: var(--white);
     font-size: 28px;
     font-weight: 800;
+}
+
+/* Why choose us  */
+.choose-text{
+    text-align: center;
+}
+.choose-service{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    padding: 0px 20px;
+}
+.choose-servi > h3{
+    font-size: 24px;
+}
+.choose-text > p{
+    padding: 0px 263px;
+    margin-bottom: 48px;
+}
+.choose-servi{
+    background-color: rgba(251, 181, 99, 0.05);
+    padding: 32px 55px 32px 32px;
+    box-shadow: 1px 1px 10px #ddd;
+    transition: .3s;
+}
+.choose-servi:hover{
+    background-color: rgba(41, 206, 246, 0.05);
+}
+.choose-service .choose-servi:nth-child(3) {
+    position: relative;
+    left: 50%;
 }

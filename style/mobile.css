@@ -113,4 +113,22 @@
         width: 100%;
         height: 176px;
     }
+
+    /* Why choose us */
+    .choose-text > p{
+        padding: 0px 10px;
+        margin-bottom: 48px;
+    }
+
+    .choose-service{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .choose-servi{
+        padding: 20px;
+    }
+    .choose-service .choose-servi:nth-child(3) {
+        position: relative;
+        left: 0%;
+    }
 }
