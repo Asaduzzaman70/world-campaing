@@ -66,4 +66,13 @@
     .choose-servi{
         padding: 20px;
     }
+    /* News Letter section */
+    .newsletter-1{
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-content: center;
+        row-gap: 35px;
+        padding: 30px;
+    }
 }

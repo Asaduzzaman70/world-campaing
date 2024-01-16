@@ -247,6 +247,10 @@
 }
 
 /* Why choose us  */
+.choose{
+    width: calc( 100% - 20px );
+    margin: 0px auto;
+}
 .choose-text{
     text-align: center;
 }
@@ -275,4 +279,89 @@
 .choose-service .choose-servi:nth-child(3) {
     position: relative;
     left: 50%;
+}
+
+
+/* News Letter section */
+.newsletter{
+    width: calc( 100% - 20px );
+    margin: 0px auto;
+}
+.newsletter-1{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    column-gap: 35px;
+}
+
+
+.newsletter-input{
+    background: var(--white);
+    border: 2px solid var(--color-theme);
+    border-radius: 8px;
+    margin-top: 48px;
+    padding: 40px;
+}
+.news-input{
+    display: flex;
+    flex-direction: column;
+}
+.news-input input{
+    padding: 20px 16px;
+    color: var(--color-heading-text);
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    border-radius: 8px;
+    border: none;
+    margin: 16px 0px;
+    background-color: rgba(19, 19, 24, 0.05);
+}
+.news-input input:focus{
+    box-shadow: 1px 1px 10px #797979dd;
+}
+
+.newsletter-input > h1{
+    color: var(--color-heading-text);
+    font-size: 24px;
+}
+.newsletter-input > p{
+    padding-right: 85px;
+}
+input.subscribe[type=submit] {
+    background-color: var(--color-theme);
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.newsletter-image{
+    position: relative;
+}
+.newsletter-image img{
+    width: 100%;
+    height: 100%;
+}
+.news-text{
+    position: absolute;
+    background-color: var(--color-theme);
+    border-radius: 15px;
+    border: 2px dotted var(--white);
+    bottom: 22%;
+    right: 2%;
+    transform: rotate(-45deg);
+    padding: 32px;
+}
+.news-text > p{
+    color: var(--white);
+    text-align: center;
+    font-size: 1em;
+    font-weight: 400;
+}
+.news-text > h3{
+    color: var(--white);
+    font-size: 1em;
+    font-weight: 800;
 }
