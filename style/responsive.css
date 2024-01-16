@@ -75,4 +75,11 @@
         row-gap: 35px;
         padding: 30px;
     }
+
+    /* Footer section */
+    .footer-1{
+        width: calc( 100% - 20px );
+        margin: 0px auto;
+        padding:10px 35px;
+    }
 }

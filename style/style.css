@@ -285,7 +285,7 @@
 /* News Letter section */
 .newsletter{
     width: calc( 100% - 20px );
-    margin: 0px auto;
+    margin: 100px auto;
 }
 .newsletter-1{
     display: grid;
@@ -364,4 +364,33 @@ input.subscribe[type=submit] {
     color: var(--white);
     font-size: 1em;
     font-weight: 800;
+}
+
+/* Footer section */
+footer{
+    background-color: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    margin-top: 100px;
+}
+.footer-1{
+    width: calc( 100% - 20px );
+    margin: 0px auto;
+    padding:110px 335px;
+}
+.logo-footer > span{
+    color: var(--color-heading-text);
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.footer-social a{
+    display: inline-block;
+    margin: 50px 20px;
+}
+.footer-social{
+    border-bottom: 1px solid #dddd;
+    margin-bottom: 50px;
+}
+.footer-1 p{
+    margin-top: 15px;
 }

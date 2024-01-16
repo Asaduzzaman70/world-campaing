@@ -141,4 +141,20 @@
         row-gap: 35px;
         padding: 30px;
     }
+    .news-text{
+        position: absolute;
+        background-color: var(--color-theme);
+        border-radius: 15px;
+        border: 2px dotted var(--white);
+        bottom: 22%;
+        right: 2%;
+        transform: rotate(-45deg);
+        padding: 16px;
+    }
+    /* Footer section */
+    .footer-1{
+        width: calc( 100% - 20px );
+        margin: 0px auto;
+        padding:10px 35px;
+    }
 }
