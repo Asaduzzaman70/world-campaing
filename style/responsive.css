@@ -1,0 +1,15 @@
+@media screen and (max-width:992px) {
+    .nav-section li{
+        margin-left: 10px;
+    }
+    .nav-section li > a{
+        font-size: 16px;
+    }
+    .nav-section .logo > span{
+        font-size: 19px;
+    }
+    .nav-section .logo > img{
+        width: 6%;
+        top:10%;
+    }
+}

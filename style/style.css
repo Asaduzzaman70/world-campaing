@@ -1,0 +1,83 @@
+/* font link */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+
+*{
+    padding: 0px; margin: 0px; box-sizing: border-box; text-decoration: none;
+}
+
+/* color, font variable section  */
+:root{
+    --font:'Mulish', sans-serif;
+    --color-heading-text:#131318;
+    --color-description-text:rgba(19, 19, 24, 0.70);
+    --color-theme:#FF5400;
+    --white:#fff;
+}
+
+/* Header section  */
+.nav-section{
+    width: calc( 100% - 20px );
+    height: 80px;
+    margin: 0px auto;
+}
+.nav-section .logo{
+    line-height: 80px;
+    padding-left: 10px;
+}
+.nav-section .logo > img{
+    position: relative;
+    top: 12%;
+}
+.nav-section .logo > span{
+    color: var(--color-heading-text);
+    font-family: var(--font);
+    font-size: 36px;
+    font-weight: 800;
+}
+.logo-text-2{
+    color: var(--color-theme);
+}
+
+.nav-section ul{
+    float: right;
+    padding-right: 10px;
+}
+.nav-section li{
+    display: inline-block;
+    line-height: 80px;
+    margin-left: 44px;
+}
+.nav-section li > a{
+    color: var(--color-heading-text);
+    text-align: center;
+    font-family: var(--font);
+    font-size: 18px;
+    font-weight: 400;
+    transition: .3s;
+}
+.nav-section li > a:hover{
+    color: var(--color-theme);
+}
+
+/* Checkbox */
+.check-btn{
+    font-size: 30px;
+    color: var(--white);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+.check-btn > i{
+    color: #131318;
+}
+/* .nav-section .logo{
+    display: flex;
+}
+.nav-section > ul{
+    display: flex;
+} */

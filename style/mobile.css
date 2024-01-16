@@ -1,0 +1,44 @@
+@media screen and (max-width:600px) {
+    /* color, font variable section  */
+    :root{
+        --font:'Mulish', sans-serif;
+        --color-heading-text:#131318;
+        --color-description-text:rgba(19, 19, 24, 0.70);
+        --color-theme:#FF5400;
+        --white:#fff;
+        --menu-bgc:#ddd;
+    }
+
+    .nav-section{
+        width:100%;
+    }
+    .check-btn{
+        display: block;
+    }
+    .nav-section .logo > img{
+        top: 10%;
+        width: 10%;
+    }
+    .nav-section > ul{
+        position: fixed;
+        width: 100%;
+        height: 65vh;
+        background: var(--menu-bgc);
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    .nav-section > ul > li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    .nav-section > ul > li > a{
+        font-size: 21.543px;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    
+}
