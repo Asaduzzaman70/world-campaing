@@ -82,4 +82,11 @@
         margin: 0px auto;
         padding:10px 35px;
     }
+    /* Video Section */
+    .video{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 35px;
+    }
 }

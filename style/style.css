@@ -394,3 +394,24 @@ footer{
 .footer-1 p{
     margin-top: 15px;
 }
+
+/* Video Section */
+.video-section{
+    width: calc( 100% - 20px );
+    margin: 100px auto;
+}
+.video{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+}
+.main-video > iframe{
+    width: 100%;
+    height: 100%;
+}
+.video-text{
+    padding: 35px;
+}
+.video-text > button{
+    margin-top: 34px;
+}
