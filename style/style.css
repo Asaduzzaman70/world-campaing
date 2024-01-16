@@ -207,3 +207,36 @@
 .popular-text > button{
     margin-top: 32px;
 }
+
+
+/* Choose your destination */
+.destination{
+    width: calc( 100% - 20px );
+    margin: 100px auto;
+}
+.destination-text > h1{
+    margin-bottom: 24px;
+}
+.destination-text > p{
+    margin-bottom: 48px;
+    padding: 0px 263px;
+}
+.destination-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    width: 100%;
+}
+.destination-img-text{
+    position: relative;
+}
+.destination-img-text span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--white);
+    font-size: 28px;
+    font-weight: 800;
+}
