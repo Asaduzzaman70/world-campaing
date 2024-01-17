@@ -473,11 +473,65 @@ footer{
     border: 1px solid var(--color-theme);
     color: var(--color-theme);
 }
-
-.deals-image:nth-child(1), .deals-image:nth-child(3){
-    
-}
 .deal-im-2{
     display: flex;
     justify-content: right;
+}
+
+/* Images */
+.fold-image{
+    width: calc( 100% - 20px );
+    margin: 150px auto;
+    text-align: center;
+}
+
+.fold-image-div .image-f:nth-child(1){
+    background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+}
+.fold-image-div .image-f:nth-child(2){
+    background-image: url("../Images/Group\ 39.png");
+}
+.fold-image-div  .image-f:nth-child(3){
+    background-image: url("../Images/Group\ 40.png");
+}
+.fold-image-div .image-f:nth-child(4) {
+    background-image: url("../Images/Rectangle\ 4.png");
+}
+.fold-image-div .image-f:nth-child(5){
+    background-image: url("../Images/Group\ 40089.png");
+}
+.fold-image-div .image-f:nth-child(6){
+    background-image: url("../Images/Rectangle\ 10.png");
+}
+.fold-image-div .image-f:nth-child(7){
+    background-image: url("../Images/Rectangle\ 11.png");
+}
+.fold-image-div .image-f:nth-child(8){
+    background-image: url("../Images/Rectangle\ 7.png");
+}
+.fold-image-div .image-f:nth-child(9){
+    background-image: url("../Images/Rectangle\ 8.png");
+}
+
+.fold-image-div{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.image-f{
+    width: 30em;
+    height: 30em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    
+}
+.image-f:hover{
+    background-size: 25em 25rem;
+    transition: 1s;
 }
